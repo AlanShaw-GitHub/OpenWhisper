@@ -25,6 +25,24 @@ OpenWhisper lives in your menu bar. Write an email, reply in Slack, prompt an AI
 
 You bring your own API key from OpenAI, ElevenLabs or Meta Muse. There is no account, no server in between and no tracking. Your voice goes straight from your Mac to the speech service you picked.
 
+## Why OpenWhisper
+
+- **No subscription.** OpenWhisper is free and open source under the MIT license. You pay the speech service directly, only for what you use. With OpenAI, transcription after you stop costs $0.0045 a minute, about 27 cents for a full hour of talking; live transcription while you speak costs $0.017 a minute.
+- **Built for talking to AI.** Long prompts for Claude Code, Cursor or ChatGPT are where voice saves the most time. Smart Cleanup removes the "um"s and fixes words the recognizer misheard from context ("clear the cash" becomes "clear the cache"), and your custom vocabulary keeps project and product names right.
+- **Reliable in tricky apps.** Terminals, Electron and web apps report their text fields in unusual ways. OpenWhisper pastes the finished text once, at the cursor, and never rewrites the field behind your back, so text doesn't come out doubled or scrambled.
+- **Mixed languages.** Choose several recognition languages at once, for example Chinese and English, and speak them in the same sentence.
+- **Private by design.** No account, no server of ours, no analytics. Your audio goes from your Mac straight to the provider you chose, and your API keys never leave your Mac.
+
+### Is it the right fit?
+
+| If you want… | Consider |
+| --- | --- |
+| Pay per use, open source, your own API key | **OpenWhisper** |
+| Transcription that runs fully offline on your Mac | [VoiceInk](https://tryvoiceink.com) (open source, GPL-3.0, local models, one-time purchase from $25) or [Superwhisper](https://superwhisper.com) (local and cloud models) |
+| A commercial app with a team plan | [Wispr Flow](https://wisprflow.ai/pricing) (Pro $15 a month, or $12 a month billed yearly) |
+
+Prices are from each vendor's website and OpenAI's [pricing page](https://developers.openai.com/api/docs/pricing) as of November 2026.
+
 ## What it does
 
 - **Works where you type.** Native apps, Safari and Chrome, Electron and web apps such as Claude, ChatGPT, Slack and VS Code, and terminals such as iTerm2. The text goes to whatever field holds the cursor when you stop, so you can start talking first and click into the right box while you speak.

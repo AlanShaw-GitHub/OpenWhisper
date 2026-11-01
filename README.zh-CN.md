@@ -25,6 +25,24 @@ OpenWhisper 待在菜单栏里。写邮件、回 Slack、给 AI 提问、在终�
 
 API key 用你自己的，OpenAI、ElevenLabs、Meta Muse 任选其一。不用注册账号，中间没有服务器，也不收集任何数据。你的声音从你的 Mac 直接发给你选的语音服务。
 
+## 为什么选 OpenWhisper
+
+- **没有订阅费。** OpenWhisper 是 MIT 协议的免费开源软件。你直接向语音服务付费，用多少付多少。以 OpenAI 为例：说完再转写每分钟 $0.0045，连续说满一小时也只要约 0.27 美元；边说边转每分钟 $0.017。
+- **适合给 AI 说话。** 给 Claude Code、Cursor、ChatGPT 写长 prompt，是语音最省时间的地方。智能整理会去掉「嗯、那个」，根据上下文纠正听错的词（比如把「过你和」改回「过拟合」），自定义词汇则保证项目名、产品名拼写正确。
+- **在难搞的应用里也可靠。** 终端、Electron 和网页应用报告输入框的方式各不相同。OpenWhisper 只在光标处把整理好的文字粘贴一次，从不在背后改写输入框，所以不会出现文字重复或错乱。
+- **中英混说。** 可以同时选多种识别语言，比如中文加英文，一句话里混着说也能识别。
+- **隐私优先。** 不用注册，没有我们自己的服务器，不收集数据。声音从你的 Mac 直接发给你选的服务商，API key 只存在你的 Mac 上。
+
+### 适合你吗？
+
+| 如果你想要… | 可以考虑 |
+| --- | --- |
+| 按用量付费、开源、用自己的 API key | **OpenWhisper** |
+| 完全离线、在本机完成转写 | [VoiceInk](https://tryvoiceink.com)（开源，GPL-3.0，本地模型，一次性买断，$25 起）或 [Superwhisper](https://superwhisper.com)（本地和云端模型都有） |
+| 有团队版的商业产品 | [Wispr Flow](https://wisprflow.ai/pricing)（Pro 版每月 $15，按年付折合每月 $12） |
+
+价格来自各家官网和 OpenAI 的[定价页](https://developers.openai.com/api/docs/pricing)，截至 2026 年 11 月。
+
 ## 它能做什么
 
 - **哪里能打字，哪里就能用。** 原生应用、Safari 和 Chrome、Claude / ChatGPT / Slack / VS Code 这类网页或 Electron 应用，还有 iTerm2 等终端都可以。文字会去到你停止录音那一刻光标所在的输入框，所以可以先开口，边说边点到要写的地方。
